@@ -1,0 +1,109 @@
+body{
+
+}
+
+
+/*Header*/
+.navbar-brand{
+    color: #fff;
+}
+
+.nav-link{
+    color: #fff;
+}
+
+
+/*home*/
+.home{
+    background-color: #000000c5;
+    color: #fff;
+    text-align: center;
+    margin-left: 8em;
+    margin-right: 8em;
+    padding: 2%;
+    height: 60vh;
+}
+
+.home h1{
+    font-size: 3em;
+}
+
+.presentacion{
+    padding: 3%;
+    font-size: 1.2em;
+}
+
+
+/*Formularios*/
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.my-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30vw;
+    background-color: #000000c5;
+    padding: 2%;
+}
+
+.my-4 label{
+    color: #fff;
+}
+.form-group{
+    width: 15vw;
+    margin-bottom: 2em;
+}
+
+.form-group input{
+    width: 15vw;
+}
+
+/*listados*/
+.container-listado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;    
+}
+.container-listado ul{
+    width: 40vw;
+}
+.container-listado ul li{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+.container-listado ul li a{
+    text-decoration: none;
+}
+.list-group-item{
+    background-color: #000000c5;
+    color: #fff;
+}
+.item-principal{
+    margin-right: 2em;
+}
+.fragil{
+    color: rgb(255, 0, 0);
+}
+
+/*error*/
+.error-container{
+    margin-left: 10em;
+    margin-right: 10em;
+    text-align: center;
+}
+.p-error{
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+/*footer*/
+footer{
+    background-color: #000000c8;
+}

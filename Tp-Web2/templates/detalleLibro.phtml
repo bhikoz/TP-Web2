@@ -1,0 +1,15 @@
+<?php require_once("templates/header.phtml") ?>
+
+
+<div class="container-listado">
+    <ul class='list-group'>
+        <li class='list-group-item list-group-item-dark'> Título: <?= $libro->Titulo ?>
+        </li>
+        <li class='list-group-item list-group-item-dark'> Saga: <?= $libro->Saga ?>
+        </li>
+        <li class='list-group-item list-group-item-dark'> Género: <?= $libro->Genero ?>
+        </li>
+    </ul>
+    <a href="mostrarLibros" class="btn btn-primary">Back</a>
+</div>
+
